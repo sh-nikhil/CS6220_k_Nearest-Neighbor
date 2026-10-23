@@ -1,0 +1,71 @@
+Device: cpu
+Train: (60000, 784)  Test: (10000, 784)
+MLP(
+  (layers): ModuleList(
+    (0): Linear(in_features=784, out_features=32, bias=True)
+    (1-3): 3 x Linear(in_features=32, out_features=32, bias=True)
+    (4): Linear(in_features=32, out_features=10, bias=True)
+  )
+)
+Parameters: 28618
+Epoch   1/60 | train cost 0.3844 | test cost 0.3764 | test acc 0.8846 | L1 grad norms: 3.14e-03, 8.96e-03, 9.40e-03, 8.83e-03, 1.45e-02
+Epoch   2/60 | train cost 0.2513 | test cost 0.2596 | test acc 0.9192 | L1 grad norms: 4.44e-03, 1.21e-02, 1.19e-02, 1.23e-02, 1.96e-02
+Epoch   3/60 | train cost 0.1597 | test cost 0.1832 | test acc 0.9449 | L1 grad norms: 1.44e-03, 4.23e-03, 4.37e-03, 4.24e-03, 7.11e-03
+Epoch   4/60 | train cost 0.1286 | test cost 0.1521 | test acc 0.9534 | L1 grad norms: 1.18e-03, 3.09e-03, 3.06e-03, 2.90e-03, 5.18e-03
+Epoch   5/60 | train cost 0.1193 | test cost 0.1499 | test acc 0.9542 | L1 grad norms: 2.01e-03, 5.77e-03, 5.24e-03, 4.80e-03, 8.31e-03
+Epoch   6/60 | train cost 0.0966 | test cost 0.1320 | test acc 0.9595 | L1 grad norms: 1.53e-03, 3.73e-03, 3.08e-03, 2.79e-03, 4.09e-03
+Epoch   7/60 | train cost 0.0975 | test cost 0.1381 | test acc 0.9571 | L1 grad norms: 1.91e-03, 5.31e-03, 5.05e-03, 4.07e-03, 6.77e-03
+Epoch   8/60 | train cost 0.1119 | test cost 0.1563 | test acc 0.9542 | L1 grad norms: 3.96e-03, 1.02e-02, 7.98e-03, 7.42e-03, 1.08e-02
+Epoch   9/60 | train cost 0.0793 | test cost 0.1262 | test acc 0.9613 | L1 grad norms: 1.27e-03, 3.54e-03, 3.30e-03, 3.09e-03, 4.80e-03
+Epoch  10/60 | train cost 0.0658 | test cost 0.1159 | test acc 0.9649 | L1 grad norms: 1.03e-03, 2.79e-03, 2.23e-03, 1.80e-03, 2.47e-03
+Epoch  11/60 | train cost 0.0631 | test cost 0.1184 | test acc 0.9648 | L1 grad norms: 1.36e-03, 3.61e-03, 2.85e-03, 2.64e-03, 3.72e-03
+Epoch  12/60 | train cost 0.0731 | test cost 0.1319 | test acc 0.9611 | L1 grad norms: 1.92e-03, 5.99e-03, 5.29e-03, 4.38e-03, 6.11e-03
+Epoch  13/60 | train cost 0.0507 | test cost 0.1130 | test acc 0.9679 | L1 grad norms: 7.89e-04, 1.96e-03, 1.54e-03, 1.33e-03, 2.65e-03
+Epoch  14/60 | train cost 0.0541 | test cost 0.1173 | test acc 0.9649 | L1 grad norms: 1.24e-03, 3.58e-03, 3.08e-03, 2.52e-03, 4.21e-03
+Epoch  15/60 | train cost 0.0496 | test cost 0.1156 | test acc 0.9657 | L1 grad norms: 1.26e-03, 3.31e-03, 2.56e-03, 2.32e-03, 4.03e-03
+Epoch  16/60 | train cost 0.0682 | test cost 0.1353 | test acc 0.9579 | L1 grad norms: 2.71e-03, 7.76e-03, 6.73e-03, 5.97e-03, 8.44e-03
+Epoch  17/60 | train cost 0.0441 | test cost 0.1175 | test acc 0.9674 | L1 grad norms: 1.05e-03, 2.79e-03, 2.25e-03, 1.90e-03, 2.81e-03
+Epoch  18/60 | train cost 0.0493 | test cost 0.1276 | test acc 0.9661 | L1 grad norms: 1.76e-03, 4.75e-03, 4.12e-03, 3.31e-03, 5.03e-03
+Epoch  19/60 | train cost 0.0561 | test cost 0.1377 | test acc 0.9604 | L1 grad norms: 2.36e-03, 5.95e-03, 5.11e-03, 4.09e-03, 6.27e-03
+Epoch  20/60 | train cost 0.0374 | test cost 0.1164 | test acc 0.9683 | L1 grad norms: 9.77e-04, 2.48e-03, 2.10e-03, 1.78e-03, 2.83e-03
+Epoch  21/60 | train cost 0.0564 | test cost 0.1484 | test acc 0.9612 | L1 grad norms: 2.58e-03, 7.96e-03, 6.10e-03, 4.90e-03, 6.57e-03
+Epoch  22/60 | train cost 0.0419 | test cost 0.1340 | test acc 0.9635 | L1 grad norms: 1.48e-03, 4.27e-03, 3.56e-03, 2.71e-03, 4.24e-03
+Epoch  23/60 | train cost 0.0336 | test cost 0.1219 | test acc 0.9686 | L1 grad norms: 9.34e-04, 2.68e-03, 2.03e-03, 1.68e-03, 3.12e-03
+Epoch  24/60 | train cost 0.0344 | test cost 0.1298 | test acc 0.9670 | L1 grad norms: 1.11e-03, 2.94e-03, 2.49e-03, 2.13e-03, 3.24e-03
+Epoch  25/60 | train cost 0.0345 | test cost 0.1211 | test acc 0.9675 | L1 grad norms: 1.19e-03, 3.84e-03, 3.18e-03, 2.78e-03, 4.04e-03
+Epoch  26/60 | train cost 0.0309 | test cost 0.1259 | test acc 0.9685 | L1 grad norms: 1.32e-03, 3.15e-03, 2.24e-03, 1.89e-03, 2.69e-03
+Epoch  27/60 | train cost 0.0231 | test cost 0.1235 | test acc 0.9690 | L1 grad norms: 7.98e-04, 2.04e-03, 1.75e-03, 1.58e-03, 2.65e-03
+Epoch  28/60 | train cost 0.0371 | test cost 0.1403 | test acc 0.9665 | L1 grad norms: 1.76e-03, 5.48e-03, 4.36e-03, 3.83e-03, 5.91e-03
+Epoch  29/60 | train cost 0.0284 | test cost 0.1355 | test acc 0.9683 | L1 grad norms: 1.39e-03, 3.33e-03, 2.68e-03, 2.40e-03, 3.39e-03
+Epoch  30/60 | train cost 0.0295 | test cost 0.1381 | test acc 0.9675 | L1 grad norms: 1.51e-03, 4.45e-03, 3.51e-03, 2.94e-03, 4.13e-03
+Epoch  31/60 | train cost 0.0237 | test cost 0.1432 | test acc 0.9671 | L1 grad norms: 1.06e-03, 3.29e-03, 2.18e-03, 1.71e-03, 2.67e-03
+Epoch  32/60 | train cost 0.0322 | test cost 0.1455 | test acc 0.9657 | L1 grad norms: 2.07e-03, 5.92e-03, 4.74e-03, 3.61e-03, 5.35e-03
+Epoch  33/60 | train cost 0.0246 | test cost 0.1417 | test acc 0.9664 | L1 grad norms: 1.28e-03, 3.22e-03, 2.37e-03, 1.83e-03, 3.10e-03
+Epoch  34/60 | train cost 0.0259 | test cost 0.1508 | test acc 0.9662 | L1 grad norms: 1.61e-03, 4.97e-03, 3.89e-03, 3.08e-03, 4.05e-03
+Epoch  35/60 | train cost 0.0215 | test cost 0.1496 | test acc 0.9664 | L1 grad norms: 1.23e-03, 3.60e-03, 2.93e-03, 2.30e-03, 3.31e-03
+Epoch  36/60 | train cost 0.0287 | test cost 0.1588 | test acc 0.9646 | L1 grad norms: 1.75e-03, 4.80e-03, 3.86e-03, 3.23e-03, 4.94e-03
+Epoch  37/60 | train cost 0.0230 | test cost 0.1686 | test acc 0.9626 | L1 grad norms: 1.91e-03, 4.32e-03, 3.56e-03, 3.26e-03, 4.25e-03
+Epoch  38/60 | train cost 0.0151 | test cost 0.1388 | test acc 0.9704 | L1 grad norms: 6.48e-04, 2.08e-03, 1.99e-03, 1.66e-03, 2.87e-03
+Epoch  39/60 | train cost 0.0215 | test cost 0.1606 | test acc 0.9659 | L1 grad norms: 1.28e-03, 3.92e-03, 3.40e-03, 2.87e-03, 4.19e-03
+Epoch  40/60 | train cost 0.0145 | test cost 0.1464 | test acc 0.9707 | L1 grad norms: 8.99e-04, 2.56e-03, 1.95e-03, 1.65e-03, 2.72e-03
+Epoch  41/60 | train cost 0.0138 | test cost 0.1588 | test acc 0.9667 | L1 grad norms: 9.76e-04, 2.62e-03, 2.02e-03, 1.56e-03, 2.02e-03
+Epoch  42/60 | train cost 0.0137 | test cost 0.1594 | test acc 0.9662 | L1 grad norms: 8.48e-04, 2.43e-03, 1.80e-03, 1.51e-03, 2.29e-03
+Epoch  43/60 | train cost 0.0111 | test cost 0.1603 | test acc 0.9675 | L1 grad norms: 8.19e-04, 2.17e-03, 1.47e-03, 1.19e-03, 1.95e-03
+Epoch  44/60 | train cost 0.0190 | test cost 0.1660 | test acc 0.9672 | L1 grad norms: 1.24e-03, 3.90e-03, 3.13e-03, 2.67e-03, 3.66e-03
+Epoch  45/60 | train cost 0.0084 | test cost 0.1579 | test acc 0.9706 | L1 grad norms: 3.72e-04, 9.62e-04, 6.55e-04, 5.11e-04, 8.37e-04
+Epoch  46/60 | train cost 0.0158 | test cost 0.1664 | test acc 0.9680 | L1 grad norms: 9.61e-04, 2.43e-03, 1.91e-03, 1.43e-03, 2.27e-03
+Epoch  47/60 | train cost 0.0355 | test cost 0.1869 | test acc 0.9657 | L1 grad norms: 2.37e-03, 7.12e-03, 6.08e-03, 4.31e-03, 6.06e-03
+Epoch  48/60 | train cost 0.0172 | test cost 0.1706 | test acc 0.9670 | L1 grad norms: 1.32e-03, 3.74e-03, 2.61e-03, 2.15e-03, 3.24e-03
+Epoch  49/60 | train cost 0.0152 | test cost 0.1737 | test acc 0.9673 | L1 grad norms: 1.05e-03, 3.38e-03, 2.76e-03, 2.21e-03, 3.03e-03
+Epoch  50/60 | train cost 0.0156 | test cost 0.1823 | test acc 0.9672 | L1 grad norms: 1.47e-03, 4.08e-03, 3.22e-03, 2.40e-03, 3.53e-03
+Epoch  51/60 | train cost 0.0127 | test cost 0.1737 | test acc 0.9676 | L1 grad norms: 1.01e-03, 2.89e-03, 2.66e-03, 2.25e-03, 3.37e-03
+Epoch  52/60 | train cost 0.0401 | test cost 0.2141 | test acc 0.9596 | L1 grad norms: 3.35e-03, 8.84e-03, 7.65e-03, 6.11e-03, 9.04e-03
+Epoch  53/60 | train cost 0.0144 | test cost 0.1948 | test acc 0.9678 | L1 grad norms: 1.33e-03, 3.92e-03, 2.82e-03, 1.86e-03, 2.82e-03
+Epoch  54/60 | train cost 0.0202 | test cost 0.1908 | test acc 0.9679 | L1 grad norms: 1.28e-03, 3.43e-03, 3.04e-03, 2.28e-03, 3.37e-03
+Epoch  55/60 | train cost 0.0077 | test cost 0.1817 | test acc 0.9676 | L1 grad norms: 6.21e-04, 1.63e-03, 9.91e-04, 7.33e-04, 1.09e-03
+Epoch  56/60 | train cost 0.0074 | test cost 0.1794 | test acc 0.9684 | L1 grad norms: 5.03e-04, 1.36e-03, 1.01e-03, 7.85e-04, 1.03e-03
+Epoch  57/60 | train cost 0.0038 | test cost 0.1759 | test acc 0.9684 | L1 grad norms: 2.85e-04, 7.96e-04, 5.73e-04, 4.55e-04, 6.26e-04
+Epoch  58/60 | train cost 0.0094 | test cost 0.1974 | test acc 0.9664 | L1 grad norms: 1.05e-03, 3.41e-03, 3.06e-03, 2.49e-03, 3.60e-03
+Epoch  59/60 | train cost 0.0023 | test cost 0.1856 | test acc 0.9708 | L1 grad norms: 2.29e-04, 6.12e-04, 4.76e-04, 3.96e-04, 8.11e-04
+Epoch  60/60 | train cost 0.0020 | test cost 0.1885 | test acc 0.9700 | L1 grad norms: 1.81e-04, 4.25e-04, 2.93e-04, 2.31e-04, 3.43e-04
+Done in 51.0s
